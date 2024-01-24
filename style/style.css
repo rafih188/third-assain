@@ -1,3 +1,12 @@
 .primary-font{
     font-family: 'Manrope', sans-serif;
 }
+.primary-color{
+    color: #131318;
+}
+.pcolor{
+    color: rgba(19, 19, 24, 0.60);
+}
+.fff{
+    color: #fff;
+}

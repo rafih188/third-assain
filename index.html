@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey club</title>
-    <!-- tailwind and daisyui link here =====
-        ======== -->
+    <!-- tailwind link here  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- tailwind custom color ====
-        ===== -->
-    <script src="script/script.js"> </script>
+  
+ 
 
     <!-- google font here ======
         ======= -->
@@ -19,62 +16,193 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+           <!-- remix icon 
+    ========== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
     <!-- custom style link here ====
-    ====== -->    
-  <link rel="stylesheet" href="style/style.css">
+    ====== -->
+    <link rel="stylesheet" href="style/style.css">
 
-</head>
+</head> 
 
-<body class="primary-font text-center">
-    <header class="container mx-auto my-4 ">
-         <!-- banner section === -->
-         <div class="carousel w-full ">
+<body class="primary-font">
+    <header class="container mx-auto my-4 relative">
+        <!-- banner section === -->
+        <div class="carousel w-full ">
             <div id="slide1" class="carousel-item relative w-full">
-                <img src="/Images/1.png" class="w-full" />
+                <img src="/Images/1.png" class="w-full rounded-lg z-0" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" class="btn btn-circle">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide2" class="carousel-item relative w-full">
-                <img src="/Images/1.png" class="w-full" />
+                <img src="/Images/1.png" class="w-full rounded-lg" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a>
                     <a href="#slide3" class="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide3" class="carousel-item relative w-full">
-                <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                <img src="/Images/1.png" class="w-full rounded-lg" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a>
                     <a href="#slide4" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="slide4" class="carousel-item relative w-full">
-                <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+            <div id="slide4" class="carousel-item relative w-full ">
+                <img src="/Images/1.png" class="w-full rounded-lg" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" class="btn btn-circle">❮</a>
                     <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
             </div>
         </div>
-        <div class="flex lg:float-end px-3 flex-col bg-slate-950 rounded-2xl m-4 p-8 relative lg:-inset-y-52 ">
+        <div class="flex lg:float-end px-3 flex-col bg-slate-950 rounded-2xl m-4 p-8 lg:absolute bottom-1 right-1 ">
             <h2 class="text-left font-extrabold text-white pb-3 text-2xl ">Meet all the heroes from the field</h2>
-            <p class="text-start text-white text-base font-medium "> both teams demonstrated their prowess, executing precise passes <br> and displaying lightning-fast skating across the icy rink.</p>
+            <p class="text-start text-white text-base font-medium "> both teams demonstrated their prowess, executing
+                precise passes <br> and displaying lightning-fast skating across the icy rink.</p>
         </div>
     </header>
+
+
+
     <!-- main content started here ====
         
         ======= -->
     <main class="container mx-auto">
-       
+        <section class="text-center my-6">
+            <!-- frofessional section  -->
+            <h2 class="p-5 primary-color font-extrabold text-3xl">Professional Hockeys Club</h2>
+            <p class="pcolor text-base font-medium pb-4">As the game unfolded the intensity escalated with each passing
+                minute. <br> A series of power plays and penalty kills </p>
+            <div class=" py-6 flex gap-4 justify-around lg:flex-row flex-col">
+                <div class="text-center">
+                    <div class="radial-progress text-red-600" style="--value:87;" role="progressbar">87%</div>
+                    <h2 class="primary-color font-semibold text-xl py-2">Prayer Facility</h2>
+                    <p class="py-1 pcolor font-normal text-base">Player Facility Elevates <br>the Hockey Experience</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-teal-400 " style="--value:95;" role="progressbar">95%</div>
+                    <h2 class="primary-color font-semibold text-xl py-2">Experienced Coach</h2>
+                    <p class="py-1 pcolor font-normal text-base">Teacher is the best <br> person in the world </p>
+                </div>
+                <div>
+                    <div class="radial-progress text-rose-300 " style="--value:90;" role="progressbar">90%</div>
+                    <h2 class="primary-color font-semibold text-xl py-2">Senior Player</h2>
+                    <p class="py-1 pcolor font-normal text-base">Senior player plays <br>important role everywhwre</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-purple-900" style="--value:80;" role="progressbar">80%</div>
+                    <h2 class="primary-color font-semibold text-xl py-2">Training Ground</h2>
+                    <p class="py-1 pcolor font-normal text-base">Training ground gives<br>you more plesure</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- program sections=====
+            
+            =======  -->
+        <section class="text-center my-6">
+            <div class="pb-6">
+                <h2 class="p-5 primary-color font-extrabold text-3xl">Program Sections</h2>
+                <p class="pcolor text-base font-medium pb-4">Youth Hockey Program, hockey Game Program management <br>
+                    hockey Training Program</p>
+            </div>
+            <div class="grid gap-4 grid-cols-1 md:grid-cols-2">
+                <div class="card bg-base-100 image-full px-4 lg:px-0">
+                    <figure><img src="/Images/2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title fff text-3xl font-extrabold">Junior Program</h2>
+                        <p class="text-start fff text-base font-medium mt-6">The junior hockey development program not
+                            only produces skilled players but also instills a passion for the sport. It acts as a
+                            fertile ground for talent, shaping the next generation of hockey stars</p>
+                        <div class="card-actions justify-start">
+                            <button class="btn bg-orange-700 border-0 text-start fff">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 image-full px-4">
+                    <figure><img src="/Images/3.png" alt="Shoes" /></figure>
+                    <div class="card-body px-4">
+                        <h2 class="card-title fff text-3xl font-extrabold">Teenager Program</h2>
+                        <p class="text-start fff text-base font-medium mt-6">The teenager hockey development program not
+                            only produces skilled players but also instills a passion for the sport. It acts as a
+                            fertile ground for talent, shaping the next generation of hockey stars</p>
+                        <div class="card-actions justify-start">
+                            <button class="btn bg-orange-700 fff border-0">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-6 lg:col-span-2">
+                    <div class="card bg-base-100 image-full px-4 h-auto">
+                        <figure><img src="/Images/4.png" alt="hockey" /></figure>
+                        <div class="card-body">
+                            <div>
+                                <h2 class="card-title fff text-3xl font-extrabold  text-start">Professional Program</h2>
+                                <p class="text-start fff text-base font-medium mt-6 pt-4"> there are many professional
+                                    hockey players around the world. <br> They can make any change in their game,
+                                    professional players make big impact in any game. <br> in the other hand they show
+                                    their
+                                    best skill.</p>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn mt-10 bg-orange-700 fff border-0">Register Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- new product section ===
+            === -->
+        <section>
+            <div class="text-center">
+                <h2 class="p-5 primary-color font-extrabold text-3xl">Our New Products</h2>
+                <p class="pcolor text-base font-medium pb-4">Every year we publish our new product in local <br> market
+                    this is top of our product's</p>
+            </div>
+            <div class="grid gap-4 lg:grid-cols-2">
+                <div>
+                    <div class="hero bg-base-200 justify-start">
+                        <div class="hero-content flex-col lg:flex-row">
+                            <img src="/Images/5.png" class="rounded-lg  " />
+                            <div>
+                                <div class="flex justify-around">
+                                    <i class="ri-star-fill"></i>
+                                    <p>5.0</p>
+                                    <i class="ri-eye-line"></i>
+                                    <p>20</p>
+                                    <i class="ri-heart-line"></i>
+                                    <p>200</p>
+                                </div>
+                                <p class="">
+                                </p>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>hhh</div>
+                <div>hhh</div>
+                <div>hhh</div>
+                <div>hhh</div>
+                <div>hhh</div>
+            </div>
+        </section>
 
     </main>
     <footer>
 
 
     </footer>
-
+  <!-- tailwind custom color ====
+        ===== -->
+        <script src="script/script.js"> </script>
+           <!-- tailwind and daisyui link here =====
+        ======== -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
 </html>
